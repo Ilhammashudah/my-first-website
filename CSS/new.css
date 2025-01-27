@@ -1,0 +1,30 @@
+.child {
+
+    width: 33%;
+    height: 100%;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+.mydivelement {
+
+    border: 1px solid black;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+@media screen and (max-width:712px) {
+    .mydivelement {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:640px) {
+    .mydivelement {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+

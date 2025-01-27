@@ -1,0 +1,192 @@
+.flex-container {
+    height: 40rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+
+.child {
+    height: 100%;
+    border: 2px solid brown;
+    width: 30%;
+    object-fit: contain;
+    display: flex;
+
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.second-container {
+    height: 50vh;
+    border: 1px solid black;
+    margin-top: 1rem;
+    display: flex;
+    padding: 10px;
+
+
+}
+
+
+.child70 {
+    height: 100%;
+    border: 2px solid black;
+    width: 70%;
+    display: flex;
+
+}
+
+.child30 {
+    height: 100%;
+    border: 2px solid red;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.grandchild60 {
+    height: 100%;
+    border: 2px solid brown;
+    width: 60%;
+    display: flex;
+
+}
+
+.table {
+    height: 90px;
+    border: 1px solid black;
+    width: 1000px;
+    border-spacing: 0px;
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: large;
+}
+
+.grandchild40 {
+    height: 100%;
+    border: 2px solid brown;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.greatgrandchild50 {
+    height: 50%;
+    border: 1px solid orange;
+    width: 100%;
+    text-align: center;
+
+}
+
+.my30 {
+    height: 30%;
+    border: 2px solid green;
+    width: 100%;
+    text-align: center;
+    color: purple;
+
+
+}
+
+
+
+.my60 {
+    height: 70%;
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.my60-child {
+    height: 100%;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.mydivelement {
+    border: 1px solid black;
+    display: grid;
+    height: 500px;
+    
+}
+
+@media screen and (max-width:640px) {
+
+    .flex-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        height: auto;
+    }
+
+    .child {
+        width: 100%;
+    }
+
+    .second-container {
+
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .child70 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .grandchild60 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .grandchild60 table {
+        width: 100%;
+    }
+
+    .grandchild40 {
+
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
+
+    .greatgrandchild50 {
+        width: 100%;
+    }
+
+
+    .child30 {
+
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .my60 {
+        flex-direction: column;
+    }
+
+    .my60-child {
+        width: 100%;
+    }
+
+    .my30 {
+        flex-direction: column;
+    }
+
+    h1 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+}

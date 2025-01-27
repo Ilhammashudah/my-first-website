@@ -1,0 +1,312 @@
+ body {
+
+     background-color: black;
+
+     
+     margin: 0;
+     padding: 0;
+
+ }
+
+
+
+
+ .rightheader {
+
+     display: flex;
+     justify-content: space-evenly;
+     gap: 2rem;
+
+
+ }
+
+
+
+
+ .rightheader a {
+     color: darkcyan;
+     /* display: flex; */
+
+ }
+
+ .leftheader {
+     /* border: 1px solid darkcyan; */
+     height: auto;
+     display: flex;
+     justify-content: center;
+     width: 50%;
+ }
+
+
+ .hithere,
+ h2 {
+
+     color: darkcyan;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 200;
+     font-style: oblique;
+     margin-left: 20px;
+
+ }
+
+ h3 {
+
+     /* margin-left: 40rem; */
+     color: darkcyan;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 200;
+     font-style: oblique;
+     text-decoration: underline;
+
+
+
+
+ }
+
+
+
+
+
+
+
+ button {
+     background-color: white;
+     color: black;
+     margin-right: 1rem;
+
+ }
+
+
+
+ .newdiv {
+     
+     width: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: sticky;
+     right: 0;
+     left: 0;
+     top: 0;
+     bottom: 0;
+     z-index: 0;
+     background-color: rgb(153, 170, 170);
+     
+ }
+
+
+
+
+
+
+
+ .child {
+     height: 36rem;
+     border: 1px solid aqua;
+     border-end-end-radius: 5%;
+     border-bottom-left-radius: 5%;
+     width: 36rem;
+     padding: 5px;
+     border-top: black;
+
+
+
+ }
+
+ img {
+
+     width: 100%;
+     height: 80%;
+     object-fit: cover;
+     border-radius: 10%;
+
+
+
+ }
+
+ .label {
+     color: darkcyan;
+     text-align: center;
+
+ }
+
+ p {
+
+     color: darkcyan;
+     text-align: center;
+     text-decoration: underline;
+
+
+ }
+
+
+ .blankdiv {
+
+     border: 1px solid black;
+     height: 100px;
+     width: 100%;
+     margin-top: 5rem;
+     background-color: darkcyan;
+
+ }
+
+ footer {
+
+     border: 1px solid black;
+     height: 100px;
+     width: auto;
+     background-color: black;
+     color: darkcyan;
+     text-align: center;
+ }
+
+
+
+ .parent {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 1rem;
+     width:  auto;     
+     height: auto;
+     
+     
+
+ }
+
+
+
+ @media screen and (max-width: 1024px) {
+    
+ .newdiv{
+
+    width: auto;
+    
+ }
+
+ .leftheader, .rightheader{
+
+    width: auto;
+    
+ }
+
+
+  .parent{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    height: auto;
+  }
+ 
+  .child{
+
+    flex-direction: column;
+    width: auto;
+  }
+    
+    .blankdiv{
+        width: auto;
+    }
+
+    footer{
+        width: auto;
+    }
+     
+ }
+    
+
+   
+ 
+
+ 
+
+ @media screen and (max-width:712px) {
+
+    .newdiv{
+
+        width: auto;
+        
+        
+    }
+
+    .leftheader, .rightheader{
+
+        width: auto;
+    }
+    
+    .parent{
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+        height: auto;
+    }
+
+    .child{
+
+        width: auto;
+    }
+
+    .blankdiv{ width: auto;
+    
+    }
+
+    footer{
+
+        width: auto;
+    }
+ }
+
+
+    
+    
+
+
+     @media screen and (max-width:640px) {
+
+        
+
+         .newdiv {
+
+             width: auto
+
+         }
+
+
+
+         .child {
+             width: auto;
+             flex-direction: column;
+         }
+
+         .leftheader, .rightheader {
+
+             width: auto;
+            
+             flex-direction: column;
+         }
+
+         .parent {
+             display: grid;
+             grid-template-columns: repeat(1, 1fr);
+             gap: 1rem;
+             height: auto;
+
+         }
+
+
+
+         footer {
+
+             width: auto;
+         }
+
+         .blankdiv {
+
+             width: auto;
+         }
+
+     }
+
+
+    

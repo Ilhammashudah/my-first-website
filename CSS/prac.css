@@ -1,0 +1,143 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    color: red;
+
+}
+
+#h1-container {
+    height: 100px;
+    border: 1px solid white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    z-index: 1;
+
+}
+
+p {
+    font-size: larger;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table,
+th,
+td {
+    margin-left: 1.9cm;
+    height: 90px;
+    border: 2px solid grey;
+    border-spacing: 0px;
+    font-size: larger;
+    color: red;
+    width: 1700px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    text-align: center;
+    position: relative;
+}
+
+/* table {
+    position: absolute;
+    right: 0;
+    top: 0;
+} */
+
+/* th,td{width:1000px ;} */
+
+.mail-container {
+    margin-top: 1cm;
+    padding-top: 1cm;
+    padding-left: 1cm;
+    height: 300px;
+    border: 1px solid black;
+    background-color: lightpink;
+    border-color: red;
+
+}
+
+#image-container {
+    height: 500px;
+    border: 1px solid red;
+
+    margin-top: 4rem;
+    background-color: gray;
+    padding-left: 12rem;
+
+    /* border-radius: 50%; */
+    /* width:500px ; */
+}
+
+#image-container img {
+    object-fit: cover;
+}
+
+#footer-container {
+    border: 3px solid yellow;
+    height: 300px;
+    margin-top: 2cm;
+    background-color: black;
+    color: white;
+
+}
+
+/* div{border: 1px solid blue;
+height: 50px;
+width: 100px;} */
+
+
+
+.ayo-container,
+.eli-container {
+    margin-left: 35cm;
+
+}
+
+.hauwa,
+.ola-container {
+    margin-top: 2cm;
+    margin-left: 5cm;
+}
+
+
+label,
+input {
+    color: red;
+}
+
+body {
+    /* background-image: url("../me/OIP.jfif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.button-container {
+    height: 200px;
+    border: 1px solid red;
+    position: relative;
+
+}
+
+button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+
+
+}
+
+.display-practice-container {
+    border: 1px solid black;
+    display: inline;
+    height: 100px;
+    width: 100vw;
+}
