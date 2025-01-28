@@ -147,9 +147,13 @@
      width: 100%;
      margin-top: 5rem;
      background-color: darkcyan;
+     color: black;
 
  }
 
+ .blankdiv h2{
+    color: cornsilk;
+ }
  footer {
 
      border: 1px solid black;
